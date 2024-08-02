@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Music</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+
+    <!-- SCRIPTS  -->
+    <script type="module" src="./src/scripts/index.js" defer></script>
+    <script src="./src/scripts/theme.js" defer></script>
+    
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">open music</h1>
+      <button class="header__btn"><img class="header__icon" src="./src/assets/img/moon.svg" aria-hidden="true"></button>
+    </header>
+    <main class="main">
+
+      <!-- FIRST SECTION -->
+      <section class="main__top-section">
+        <div class="gender-container">
+          <h2 class="gender-container__h2">Gênero Musical</h2>
+          <ul class="gender-container__ul"></ul>
+        </div>
+
+        <div class="price-container">
+          <div class="price-container__div">
+            <h2 class="price-container__h2">Definir Preço</h2>
+            <p class="price-container__p">Até R$ 100</p>
+          </div>
+          <input type="range" value="100" id="price-container__input">
+        </div>
+      </section>
+
+      <!-- SECOND SECTION -->
+      <section class="main__bottom-section">
+        <h2 class="bottom-section__h2">Álbuns Encontrados</h2>
+        <ul class="bottom-section__ul"></ul>
+      </section>
+
+    </main>
+  </body>
+</html>

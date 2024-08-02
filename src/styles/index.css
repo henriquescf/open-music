@@ -1,0 +1,122 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.header__title{
+    font-weight: bold;
+    font-size: var(--font-1);
+}
+
+.header__btn{
+    border: solid transparent 1px;
+    padding: 0.1875rem 0.25rem;
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.header__icon{
+    height: 1.25rem;
+}
+
+
+.gender-container__h2, .bottom-section__h2, .price-container__h2, .bottom-section__ul li h2, .bottom-section__ul li span p{
+    font-size: var(--font-2);
+    font-weight: bold;
+}
+
+.header__btn, .gender-container__ul li button, .price-container__p, .bottom-section-li__div span button, .bottom-section-li__div{
+    font-size: var(--font-3);
+} 
+
+.gender-container__ul{
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+}
+
+.gender-container__ul li button{
+    border: solid transparent 1px;
+    padding: 0.625rem;
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.btn__focus{
+    background-color: var(--color-grey-5) !important;
+}
+
+.price-container{
+    margin: 50px 0px;
+}
+
+.price-container__div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#price-container__input{
+    width: 100%;
+    cursor: pointer;
+    accent-color: var(--color-brand-1);
+}
+
+.bottom-section__h2{
+    margin: 50px 0px;
+}
+
+.bottom-section__ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.bottom-section__ul li{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 20px 0px;
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+}
+
+.bottom-section__ul li img{
+    border-radius: var(--radius-1);
+    width: 100%;
+    align-self: center;
+}
+
+.bottom-section-li__div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 0.625rem;
+}
+
+.bottom-section-li__div span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-section-li__div span button{
+    border: 1px solid transparent;
+    padding: 0.625rem;
+    background-color: var(--color-grey-7);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.dark-mode{
+    color: var(--color-white-fixed);
+}
+
+.dark-mode button{
+    color: var(--color-white-fixed);
+}
